@@ -121,6 +121,28 @@ p {
   display: inline-block;
   padding-right: 50px;
 }
+#header .social-links{
+  padding-right: 7%;
+}
+#header .social-links a {
+  font-size: 10px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 6px 0;
+  margin-right: 8px;
+  border-radius: 50%;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  transition: 0.3s;
+}
+
+#header .social-links a:hover {
+  background: #fff;
+  color: #d32737;
+}
 
 .nav-menu,
 .nav-menu * {
@@ -190,7 +212,7 @@ p {
 /* Nav Meu Styling */
 
 .nav-menu a {
-  padding-top:20px;
+  padding-top:10px;
   padding-right:10px;
   text-decoration: none;
   display: inline-block;
@@ -261,7 +283,11 @@ p {
   color: #fff;
   transition: 0.5s;
 }
-
+#mobile-nav-toggle i:hover{
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
 /* Mobile Nav Styling */
 
 #mobile-nav {
@@ -361,14 +387,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
 }
 #register{
-  padding-top: 10px;
+  padding-top: 5px;
 }
 .buttonReg a{
   color:#d32737;
   background-color: #ffff;
   border-radius: 20px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 10px;
   padding-right: 10px;
   transition: 0.5s;
@@ -1129,13 +1155,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #header{
     position: fixed;
-    height:80px;
+    height:110px;
     padding-top: 4%;
   }
   #header.header-scrolled{
     background: #d32737;
     padding-top: 4%; 
-    height: 80px;
+    height: 110px;
     transition: all 0.5s ease;
   }
   #header #logo{
