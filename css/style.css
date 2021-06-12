@@ -115,10 +115,11 @@ p {
 }
 #header #logo ul{
   list-style-type: none;
-  padding-right: 80px;
+
 }
 #header #logo ul li{
   display: inline-block;
+    padding-right: 50px;
 }
 
 .nav-menu,
