@@ -261,11 +261,7 @@ p {
   color: #fff;
   transition: 0.5s;
 }
-#mobile-nav-toggle i:hover{
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-}
+
 /* Mobile Nav Styling */
 
 #mobile-nav {
