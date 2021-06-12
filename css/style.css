@@ -119,6 +119,7 @@ p {
 }
 #header #logo ul li{
   display: inline-block;
+  padding-right: 50px;
 }
 
 .nav-menu,
@@ -1224,10 +1225,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width:580px){
   #speakers table{
-    height:175px;
+    height:250px;
   }
   #speakers .col{
-    height: 175px;
+    height: 250px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 50%;
