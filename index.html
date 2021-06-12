@@ -1698,13 +1698,13 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 footer-info">
+          <div class="col-lg-6 col-md-6 footer-info">
             <img src="img/odc-logo.png" style="height: 60px;width: auto;"><br><br>
            <!-- <h3>ODC</h3>-->
             <p>ODC will work across the Built Environment, Branding, Business, Products and Public Services – providing design support services and training; delivering partner-funded programmes and running campaigns to raise awareness about the value of design.</p>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <div class="col-lg-6 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               1855/ 2213, Jagannath Patana<br>
@@ -1720,45 +1720,7 @@
               <a href="https://www.linkedin.com/company/odc-Odisha-design-council/" class="linkedin"><i class="fa fa-linkedin"></i></a>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Monthly Newsletter</h4>
-            <p>Drop in your Email ID to Subscribe to our Monthly Newsletter</p>
-			      <p> Coming soon... </p>
-            <div target = "_blank" action method ="post">
-              <input type="email" id="subscriber-email"><input type="submit" onclick="validation()" value="Subscribe">
-              <p id="ack-message"></p>
-              <script>
-                function validation(){
-                  console.log("chala without ref");
-                  var email = document.getElementById("subscriber-email").value;
-                  var mess = document.getElementById("ack-message");
-                  if(email==""){
-                    mess.innerHTML = "email is empty try again..."
-                  }
-                  else if(/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(email)){ 
-                    mess.innerHTML = "good email address..."
-                    }
-                    else {
-                      mess.innerHTML = "invalid email address..."
-                    }
-                
-                }
-              </script>
-              <!-- <button type="submit" onclick="validation()">heloooooo</button> -->
-              
-              <!--  <p id = "subscribe-message" class="SubscribeMessage"> Subscribed</p>--><!--For displaying messages-->
-            </div>
-          </div>
-		      <div class="col-lg-3 col-md-6 footer-newsletter">
-            <h4>Blog Posts</h4>
-            <p>Coming soon...</p>
-
-            <h4>Design Store</h4>
-            <p>Coming soon...</p>
-          </div>
-        </div>  
-      </div>
-    </div>
+          
     <div class="container">
       <div class="copyright">
         &copy; Copyright <strong>Odisha Design Council</strong>. All Rights Reserved
