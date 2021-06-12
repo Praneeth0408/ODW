@@ -868,7 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 
 #footer {
-  background: #000;
+  background: #111;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
@@ -988,30 +988,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 26px;
 }
 
-#footer .footer-top .footer-newsletter {
-  margin-bottom: 30px;
-}
 
-#footer .footer-top .footer-newsletter input[type="email"] {
-  border: 0;
-  padding: 6px 8px;
-  width: 65%;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #e82736;
-  border: 0;
-  width: 35%;
-  padding: 6px 0;
-  text-align: center;
-  color: #fff;
-  transition: 0.3s;
-  cursor: pointer;
-}
-
-#footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #d32737;
-}
 
 #footer .copyright {
   text-align: center;
