@@ -437,7 +437,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align:left;
   padding-bottom:50px;
 }
-
+#odw .container-fluid{
+  padding-left: 8.4%;
+  padding-right: 8.4%;
+}
 #events{
   height:auto;
   background-color: #d32737;  
