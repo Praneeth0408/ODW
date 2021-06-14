@@ -302,11 +302,7 @@ p {
   transition: 0.5s;
   padding-left: 8.4%;
 }
-#mobile-nav-toggle i:hover{
-  -ms-transform: scale(1.5); 
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5); 
-}
+
 /* Mobile Nav Styling */
 
 #mobile-nav {
