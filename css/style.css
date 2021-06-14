@@ -420,7 +420,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #000;
 }
 
-#odw ,#theme-body{
+#theme-body{
+  display: table;
+  width: 100%;
+  height: auto;
+  color:#fff; 
+  margin-top:168px;
+  text-align:left;
+  padding-bottom:50px;
+}
+
+#odw {
   display: table;
   width: 100%;
   height: auto;
