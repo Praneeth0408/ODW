@@ -26,11 +26,11 @@ a {
 }
 
 .yut{
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 20px;
   text-align: left;
   color: #FFFFFF;
   margin-top: 5px;
+  font-style: italic;
 }
 
 a:hover,
@@ -58,7 +58,7 @@ p {
 }
 #first2,#first4{
     /* font: normal normal medium; */
-    font-weight:bold;
+    font-weight:medium;
     font-size: 12px;
     letter-spacing: 0.8px;
     word-spacing: -1px;
@@ -69,7 +69,6 @@ p {
   font-weight: bold;
   letter-spacing: 2px;
   color: #FFFFFF;
-  text-transform: uppercase;
   opacity: 0.9;
 }
 .button {
