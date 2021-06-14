@@ -25,12 +25,10 @@ a {
   height: auto;
 }
 
-
 .yut{
   font-size: 15px;
   font-weight: bold;
   text-align: left;
-  letter-spacing: 8px;
   color: #FFFFFF;
   margin-top: 5px;
 }
@@ -58,7 +56,7 @@ p {
   color: #FFFFFF;
   font-size: 25px;
 }
-#first2{
+#first2,#first4{
     /* font: normal normal medium; */
     font-weight:bold;
     font-size: 12px;
@@ -67,15 +65,15 @@ p {
 }
 #first3{
   text-align: left;  
-  font-size:18px;
-  font-weight: 600;
+  font-size: 15px;
+  font-weight: bold;
   letter-spacing: 2px;
   color: #FFFFFF;
   text-transform: uppercase;
   opacity: 0.9;
 }
 .button {
-  font-weight: 700;  
+  font-weight: bold;  
   text-transform: uppercase;
   font-size: 15px;
   letter-spacing: 2px;
@@ -116,7 +114,7 @@ p {
 
 #header #logo {
   float: left;
-  padding-left: 4.5%;
+  padding-left: 4%;
 }
 
 #header #logo #odw_logo img{
@@ -133,7 +131,6 @@ p {
 }
 #header #logo ul{
   list-style-type: none;
-
 }
 #header #logo ul li{
   display: inline-block;
@@ -175,7 +172,6 @@ p {
   padding-top: 102px;
   left: 0;
   z-index: 99;
-  float: right;
 }
 
 .nav-menu li {
@@ -254,7 +250,6 @@ p {
 }
 
 .nav-menu ul {
-  float: right;
   margin: 4px 0 0 0;
   padding: 10px;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -303,7 +298,11 @@ p {
   color: #fff;
   transition: 0.5s;
 }
-
+#mobile-nav-toggle i:hover{
+  -ms-transform: scale(1.5); 
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5); 
+}
 /* Mobile Nav Styling */
 
 #mobile-nav {
@@ -420,7 +419,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-color: #000;
 }
 
-#odw, #theme-body {
+#odw ,#theme-body{
   display: table;
   width: 100%;
   height: auto;
@@ -429,6 +428,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align:left;
   padding-bottom:50px;
 }
+
 #events{
   height:auto;
   background-color: #d32737;  
@@ -454,8 +454,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 10px 10px 10px 10px;
   border-radius: 20px;
   text-shadow:2px  #555;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: bold;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* SPEAKERS PART 1*/
 
-#speakers .container-fluid{
+#speakers .container-fluid,#events .container-fluid{
   padding-left:8.4%;
   padding-right:8.4%;
 }
@@ -598,14 +598,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-left:17.6%;
   font-weight: 700;  
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
 .even-row-info .heading{
   font-weight: 700;  
   color: #FFFFFF;
-  font-size: 22px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 
@@ -613,14 +613,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom:2px solid #fff;
   max-width:100%;
   margin:6.3% 0% 6.3% 0%;
-  margin-bottom: 30px;
 }
 
 .even-row-info .line{
   border-bottom:2px solid #fff;
   max-width:100%;
   margin: 6.3% 0% 6.3% 0%;
-  margin-bottom: 30px;
 }
 
 .odd-row-info p{
@@ -642,12 +640,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .first-odd-row-info .line{
   max-width:100%;
   margin:4.8% 0% 4.8% 0%;
-  margin-bottom: 35px;
 }
 
 .first-odd-row-info .heading{
   color:white;
-  font-size:1.7rem;
+  font-size:20px;
   padding-left: 25%; 
   margin-bottom: 0%;
 }
@@ -667,12 +664,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 .first-even-row-info .line{
   max-width:100%;
   margin:4.8% 0% 4.8% 0%;
-  margin-bottom: 35px;
 }
 
 .first-even-row-info .heading{
   color:white;
-  font-size:1.7rem;
+  font-size:20px;
   padding-right: 25%; 
   margin-bottom: 0%;
 }
@@ -689,6 +685,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   object-fit:cover;
 }
 
+#speakers .other-than-laptop{
+  display: none;
+}
+
 /* SPONSORS */
 
 #sponsors .container-fluid{
@@ -702,8 +702,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #sp{
-  line-height: normal;
-  font-weight: 700;
+  line-height: 25px;
+  font-weight: bold;
   text-align: left;  
   letter-spacing: 2px;
   color: #FFFFFF;
@@ -745,12 +745,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #place .sp1{
-  line-height: 18px;
-  font-weight: 700;
+  line-height: 25px;
+  font-weight: bold;
   text-align: left;  
   letter-spacing: 2px;
   color: #FFFFFF;
-  font-size: 16px;
+  font-size: 20px;
   text-transform: uppercase;
 }
 #place .st1{
@@ -828,10 +828,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #timer .heading{
-  line-height: normal;
-  font-weight:700;
+  line-height: 25px;
+  font-weight:bold;
   color:white;
-  font-size:35px;
+  font-size:25px;
   letter-spacing: 2px;
   text-align: center;
   opacity: 0.9;
@@ -846,9 +846,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #timer .countdown-text{
   line-height: normal;
   color:#87F8FC;
-  font-weight:700;
+  font-weight:bold;
   letter-spacing: 1px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 60px;
   letter-spacing: 1.5px;
 }
@@ -856,7 +856,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #timer .number{
   line-height: normal;
   color:white;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 70px;
   line-height: 60px;
   letter-spacing: 1.5px;
@@ -1056,7 +1056,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #timer .countdown{
-    padding-left:4%;
+    padding-left:7%;
   }
 
   #theme-body .vetu{
@@ -1104,7 +1104,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   .buttonReg a:hover{
     background-color: #999;
   }
-  #odw, #theme-body {	
+  #odw,#theme-body {	
     margin-top:80px;
     font-size:14px;
   }
@@ -1116,7 +1116,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width:400px){
   #eve .text{
-    font-size: 10px;
+    font-size: 20px;
   }
 
   #eve .col {
@@ -1133,8 +1133,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   #eve .col{
     flex-grow: 0;
     flex-shrink: 0;
-    flex-basis: 1000%;
+    flex-basis: 100%;
     max-width: 100%;
+  }
+
+  #destinations .col{
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    max-width: 50%;
   }
 
   #place .col{
@@ -1143,23 +1150,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     flex-basis: 100%;
     max-width: 100%;
   }
-  #destinations .col{
-    flex-grow: 0;
-    flex-shrink: 0;    
-    flex-basis: 50%;
-    max-width:50%;
-  }
    
 }
 
 @media (min-width: 400px) and (max-width:575px){
-  #eve .col,#place .col{
-    flex-grow: 0;
-    flex-shrink: 0;    
-    flex-basis: 100%;
-    max-width:100%;
-  }
-  #destinations .col{
+  #eve .col,#place .col,#destinations .col{
     flex-grow: 0;
     flex-shrink: 0;    
     flex-basis: 50%;
@@ -1169,7 +1164,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 500px){
   
-  #odw .cmp{
+  .cmp{
     padding-left:7.8%;
     padding-right:7.8%;
   }
@@ -1181,7 +1176,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #header.header-scrolled{
     background: #d32737;
-    padding-top: 4%; 
+  
+    padding-top:4%;
     height: 110px;
     transition: all 0.5s ease;
   }
@@ -1193,10 +1189,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     width: auto;
     height: 40px;
   }
-  #header #logo #odc_logo img{
-    max-width: 70px;
-    height: auto;
-  }
+
   #header #logo ul li{
     padding-right: 10px;
   }
@@ -1204,7 +1197,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none !important;
   }
   #mobile-nav-toggle{
-    top: 1%;
+    top: 0%;
     left: 6%;
     font-size: 2rem;
     display: inline;
@@ -1216,6 +1209,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #destinations .place{
     height:180px;
+  }
+}
+
+@media (max-width:991px){
+  #speakers .only-for-laptop{
+    display:none;
+  }
+
+  #speakers .other-than-laptop{
+    display:block;
   }
 }
 
@@ -1242,52 +1245,42 @@ body.mobile-nav-active #mobile-nav-toggle {
   .wp{
     display: none;
   }
+}
+
+@media (max-width:580px){
   #first2{
     font-size: 12px;
     font-weight: bold;
   }
   #speakers table{
-    height:300px;
+    height:225px;
   }
   #speakers .col{
-    height: 300px;
+    height: 225px;
     flex-grow: 0;
     flex-shrink: 0;
     flex-basis: 50%;
     max-width: 50%;
   }
   .odd-row-info .heading{
-    line-height: normal;
-    font-weight: 700;  
+    line-height: 17px;
+    font-weight: bold;  
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
   }
   
   .even-row-info .heading{
-    line-height: normal;
-    font-weight: 700;  
+    line-height: 17px;
+    font-weight: bold;  
     color: #FFFFFF;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
   }
   #speakers p{
     line-height: 12px;
-    font-size:10px;
-    font-weight: 500;
-  }
-}
-
-@media (max-width:580px){
-  #speakers table{
-    height:250px;
-  }
-  #speakers .col{
-    height: 250px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: 50%;
-    max-width: 50%;
+    font-size: 10px;
+    font-weight: bold;
   }
 }
 @media (max-width:420px){
@@ -1366,15 +1359,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #timer .number{
-      font-size: 38px;
-      line-height: 40px;
+      font-size: 35px;
+      line-height: 25px;
       letter-spacing: 1px;
   }
 
   #timer .countdown-text{
-      font-size: 10.5px;
-      line-height: 40px;
-      letter-spacing: 1px;
+      font-size: 10px;
+      line-height: 25px;
+      letter-spacing: 0.6px;
+      font-weight: bold;
   }
 }
 
