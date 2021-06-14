@@ -12,7 +12,9 @@ a {
   padding-left:8.4%;
   padding-right:8.4%;
 }
-
+#theme-body .col{
+  padding: 0%;
+}
 #theme-body .text-inside-list{
   font-size: 12px;
 }
@@ -23,6 +25,8 @@ a {
   padding-top:2%;
   width:100%;
   height: auto;
+  padding-left: 8.4%;
+  padding-right: 8.4%;
 }
 
 .yut{
@@ -420,12 +424,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #theme-body{
-  display: table;
-  width: 100%;
-  height: auto;
   color:#fff; 
   text-align:left;
-  padding-bottom:50px;
 }
 
 #odw{
@@ -1118,7 +1118,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   .buttonReg a:hover{
     background-color: #999;
   }
-  #odw,#theme-body {	
+  #theme-body {
+    font-size: 14px;
+  }
+  #odw{	
     margin-top:80px;
     font-size:14px;
   }
