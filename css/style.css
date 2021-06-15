@@ -12,9 +12,6 @@ a {
   padding-left:8.4%;
   padding-right:8.4%;
 }
-#theme-body img{
-  padding-right: 0%;
-}
 #theme-body .text-inside-list{
   font-size: 12px;
 }
@@ -515,7 +512,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 }*/
 
 /* SPEAKERS PART 1*/
-
+#speaker .container-fluid{
+  padding-left:8.4%;
+  padding-right:8.4%;
+}
 #speakers .container-fluid,#events .container-fluid{
   padding-left:8.4%;
   padding-right:8.4%;
@@ -699,7 +699,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #theme .container-fluid{
   background-color: #d32737;
 }
-#sponsors,#direction,#speakers,#destination,#events{
+#sponsors,#direction,#speaker,#destination,#events{
   height: auto;
   background-color: #4ab0d8;
 }
@@ -713,6 +713,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 25px;
   text-transform: uppercase;
 }
+#spa{
+  line-height: 25px;
+  font-weight: bold;
+  text-align: left;  
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  font-size: 25px;
+  padding-top: 25%;
+  text-transform: uppercase;
+}
 #sp{
   line-height: 25px;
   font-weight: bold;
@@ -721,7 +731,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #FFFFFF;
   font-size: 25px;
   padding-top: 15%;
-  padding-bottom: 2%;
+  padding-bottom:2%;
   text-transform: uppercase;
 }
 #st{
@@ -729,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   letter-spacing: 0.8px;
   word-spacing: -1px;
   font-size: 12px;
-  padding-bottom: 5%;
+  padding-bottom: 7%;
 }
 
 
