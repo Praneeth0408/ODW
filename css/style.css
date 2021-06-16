@@ -144,8 +144,8 @@ p {
 }
 
 #header .social-links a:hover {
-  background: #fff;
-  color: #d32737;
+  background: #333;
+  color: #fff;
 }
 
 .nav-menu,
