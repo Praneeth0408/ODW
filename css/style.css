@@ -12,6 +12,10 @@ a {
   padding-left:8.4%;
   padding-right:8.4%;
 }
+#theme-body .container-fluid .row img{
+  height:500px;
+  object-fit: cover;
+}
 #theme-body .text-inside-list{
   font-size: 12px;
 }
@@ -1157,6 +1161,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   .button{
     letter-spacing: 1px;
     font-size: 13px;
+  }
+  #theme-body .container-fluid .row img{
+    height:400px;
   }
   #eve .text{
     font-size: 20px;
