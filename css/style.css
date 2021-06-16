@@ -1100,13 +1100,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 @media (max-width:1250px){
   #header{
     position: fixed;
-    height:95px;
+    height:120px;
     padding-top: 4%;
   }
   #header.header-scrolled{
     background: #d32737;
     padding-top: 4%;
-    height: 95px;
+    height: 120px;
     transition: all 0.5s ease;
   }
   #header #logo{
