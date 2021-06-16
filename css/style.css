@@ -1123,8 +1123,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     display: none !important;
   }
   #mobile-nav-toggle{
-    top: 2.5%;
-    left: 4%;
+    top: 2%;
+    left: 7.5%;
     font-size: 2rem;
     display: inline;
   }
