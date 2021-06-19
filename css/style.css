@@ -12,8 +12,12 @@ a {
   padding-left:8.4%;
   padding-right:8.4%;
 }
+#theme-body .container-fluid .row .the::after{
+  background-image: url(img/DHOKRA2.png);
+  background-size: cover;text-shadow: 2px 2px #333;
+}
 #theme-body .container-fluid .row img{
-  height:500px;
+  height:auto;
   object-fit: cover;
 }
 #theme-body .text-inside-list{
@@ -612,7 +616,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .even-row-info .heading{
   font-weight: 700;  
   color: #FFFFFF;
-  font-size: 23Fpx;
+  font-size: 23px;
   text-transform: uppercase;
 }
 
@@ -705,6 +709,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* SPEAKERS IMAGES PROPERTY */
 
 .speakers-sec-img{
+  height: auto;
   object-fit:cover;
 }
 
@@ -980,6 +985,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: normal;
   color: #eee;
 }
+#footer .footer-top .mail{
+  font-size: 14px;;
+}
 #footer .footer-top .ic{
   font-size: 18px;
   display: inline-block;
@@ -1075,8 +1083,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact {
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 100px;
 }
 
 /* #footer .footer-top .footer-contact p {
@@ -1125,6 +1132,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width:991px){
   
+  #footer .footer-top .footer-contact{
+    padding-top: 50px;
+  }
+
   #timer .tab-head-text{
     padding-left:8.4%;
   }
@@ -1200,7 +1211,11 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding-left:55%;
 }	
 }
-
+@media (max-width:443px){
+  .button{
+    font-size: 15px;
+  }
+}
 @media (max-width:400px){
   .button{
     letter-spacing: 1px;
@@ -1375,13 +1390,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 {
   .first-odd-row-info,.odd-row-info .asterisk{
     padding-left: 13.804%;
-    bottom: 6px;
   }
 
   .even-row-info .asterisk{
     bottom:6px;
   }
-
+  
 }
 
 @media (min-width: 580px){
@@ -1454,7 +1468,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #footer .footer-top .footer-info p {
     font-size: 12px;
   }
-
+  #footer .footer-top .mail{
+    font-size: 12px;;
+  }
   #footer .footer-top h4 {
     padding-top: 30px;
     font-size: 15px;
