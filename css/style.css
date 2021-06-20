@@ -737,27 +737,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #spons .place{
   max-width: 200px;
-  height: 100%;
-}
-@media (max-width: 768px){
-  #sponsors,#direction,#speaker,#destination,#events{
-    height: auto;
-    background-color: #4ab0d8;
-  }
-  #spons .place{
-    max-width: 200px;
-    height: 50%;
-  }
-}
-@media (max-width: 462px){
-  #sponsors,#direction,#speaker,#destination,#events{
-    height: auto;
-    background-color: #4ab0d8;
-  }
-  #spons .place{
-    max-width: 200px;
-    height: 25%;
-  }
+  object-fit: cover;
 }
 
 #spe{
@@ -1547,13 +1527,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #spons .place{
     max-width: 120px;
-    height: auto;
   }
 }
 @media (max-width:400px){
   #spons .place{
     max-width: 95px;
-    height: auto;
   }
 }
 @media (max-width:420px){
