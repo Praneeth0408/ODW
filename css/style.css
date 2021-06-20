@@ -737,7 +737,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #spons .place{
   max-width: 200px;
-  height: auto;
 }
 
 #spe{
@@ -1527,13 +1526,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
   #spons .place{
     max-width: 120px;
-    height: auto;
   }
 }
 @media (max-width:400px){
   #spons .place{
     max-width: 95px;
-    height: auto;
   }
 }
 @media (max-width:420px){
@@ -1653,5 +1650,27 @@ body.mobile-nav-active #mobile-nav-toggle {
   #footer table{
     padding-left: 8.4%;
     padding-right: 8.4%;
+  }
+}
+
+@media (min-width:991px){
+  .only-mob{
+    display: none;
+  }
+}
+
+@media (min-width:990px) and (max-width:992px){
+  .ooty{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width:991px){
+  .only-desk{
+    display:none;
+  }
+  .only-mob{
+    display: block;
   }
 }
