@@ -8,6 +8,7 @@ a {
   transition: 0.5s;
 }
 
+
 #theme-body .container-fluid{
   padding-left:8.4%;
   padding-right:8.4%;
@@ -62,6 +63,7 @@ p {
     font-size: 16px;
     letter-spacing: 0.8px;
     word-spacing: -1px;
+    margin-bottom: 0;
 }
 #first3{
   text-align: left;  
@@ -70,6 +72,8 @@ p {
   letter-spacing: 2px;
   color: #FFFFFF;
   opacity: 0.9;
+  margin-bottom: 0;
+  padding: 0;
 }
 .button{
   color: #d32737;
@@ -82,6 +86,7 @@ p {
   padding-bottom:5px;
   padding-left:15px;
   padding-right: 15px;
+  margin-top: 0;
 }
   
 .button4{
@@ -110,7 +115,7 @@ p {
 
 #header #logo {
   float: left;
-  padding-left: 4%;
+  padding-left: 4.5%;
 }
 
 #header #logo #odw_logo img{
@@ -738,13 +743,19 @@ body.mobile-nav-active #mobile-nav-toggle {
 #spons .place{
   max-width: 200px;
   height: 100%;
+  padding-bottom: 20px;
 }
+#spons .places{
+  height:auto; 
+  max-width:380px;
+}
+
 @media (max-width: 768px){
   #sponsors,#direction,#speaker,#destination,#events{
     height: auto;
     background-color: #4ab0d8;
   }
-  #spons .place{
+  #spons .place, #spons .places{
     max-width: 200px;
     height: 50%;
   }
@@ -754,7 +765,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     height: auto;
     background-color: #4ab0d8;
   }
-  #spons .place{
+  #spons .place, #spons .places{
     max-width: 200px;
     height: 25%;
   }
@@ -823,7 +834,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #place .sp1{
-  line-height: 25px;
+  line-height: 80%;
   font-weight: bold;
   text-align: left;  
   letter-spacing: 2px;
@@ -845,7 +856,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   height:400px;
   padding:0%;
 }
-
+#place embed{
+  vertical-align:middle;
+}
 #spimages{
   background-color: #ffff;
   width: 100%;
@@ -1004,11 +1017,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
   line-height: normal;
   color: #eee;
+  padding-bottom: 20px;
+}
+#footer .footer-top .footer-info a{
+  font-size: 13px;
+  text-transform: uppercase;
+  
 }
 #footer .footer-top .mail{
   font-size: 14px;;
 }
-#footer .footer-top .ic{
+.ic{
   font-size: 18px;
   display: inline-block;
   background: #333;
@@ -1020,7 +1039,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 36px;
   height: 36px;
-  transition: 0.3s; 
+  transition: 0.5s; 
+}
+.email-text:hover > .ic{
+  background: #d32737;
+  color: #fff;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
@@ -1176,6 +1199,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 }	
 }
 
+@media (max-width:1380px){
+  #header #logo{
+    padding-left: 4%;
+  }
+}
 
 @media (max-width:1250px){
   #header{
@@ -1545,13 +1573,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   #collabs #sph{
     font-size: 18px;
   }
-  #spons .place{
+  #spons .place ,#spons .places{
     max-width: 120px;
     height: auto;
   }
 }
 @media (max-width:400px){
-  #spons .place{
+  #spons .place ,#spons .places{
     max-width: 95px;
     height: auto;
   }
@@ -1568,7 +1596,30 @@ body.mobile-nav-active #mobile-nav-toggle {
     max-width: 50%;
   } 
 }
-
+@media (min-width:1600px){
+  #speakers table{
+    height:500px;
+  }
+  #speakers .col{
+    height: 500px;
+  }
+}
+@media (min-width:2000px){
+  #nav-menu-container{
+    float: right;
+    padding-right: 0%;
+    padding-top: 1%;
+  }
+  #speakers table{
+    height:700px;
+  }
+  #speakers .col{
+    height: 700px;
+  }
+  #header .social-links{
+    padding-left: 0%;
+  }
+}
 
 @media (min-width:768px) and (max-width:1150px){
   #timer .tab{
